@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, black, grey);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Prevent scrollbars from appearing */
+}
+
+.container {
+  text-align: center;
+}
+
+.bear-image {
+  width: 200px;
+  margin-bottom: 20px;
+  background: none; /* Remove background from bear image */
+}
+
+.content {
+  background-color: transparent; /* Make content background transparent */
+  padding: 20px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none; /* Remove button border */
+  border-radius: 5px;
+  margin: 0 10px;
+  background-color: rgba(255, 255, 255, 0.3); /* Make button background transparent */
+}
+
+button:hover {
+  transition: transform 0.5s; /* Add transition for smooth movement */
+}
+
+.no-button {
+  position: absolute;
+}
+
